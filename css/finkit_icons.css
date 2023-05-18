@@ -1,0 +1,18 @@
+@font-face {
+font-family: 'finkit_icons';
+src: url("../fonts/finkit_icons.ttf") format("truetype"),
+url("../fonts/finkit_icons.eot") format("embedded-opentype"),
+url("../fonts/finkit_icons.woff") format("woff");
+}
+.icon {
+    font-family: 'finkit_icons' !important;
+    font-size: 18px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon_graph:before { content: "\ea05"; }
+.icon_activity:before { content: "\ea06"; }
+.icon_filter:before { content: "\ea07"; }
+.icon_setting:before { content: "\ea08"; }
